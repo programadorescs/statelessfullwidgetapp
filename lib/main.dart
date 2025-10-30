@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:statelessfullwidgetapp/pages/home_page.dart';
+import 'package:statelessfullwidgetapp/pages/mi_widget_statefull.dart';
 
 void main() {
-  runApp(const HomePage());
+  runApp(const MaterialApp(home: MiWidgetStatefull()));
 }
