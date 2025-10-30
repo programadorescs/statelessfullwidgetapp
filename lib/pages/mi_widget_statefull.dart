@@ -9,7 +9,8 @@ class MiWidgetStatefull extends StatefulWidget {
 
 class _MiWidgetStatefullState extends State<MiWidgetStatefull> {
   String texto = "Hola soy un statefullwidget";
-  
+  int numero = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,11 +25,13 @@ class _MiWidgetStatefullState extends State<MiWidgetStatefull> {
             ),
             ElevatedButton(
               onPressed: () {
-                texto = "Hola este es el nuevo valor";
+                //texto = "Hola este es el nuevo valor";
+                numero++;
+                texto = numero.toString();
                 print(texto);
                 setState(() {});
               },
-              child: Text("Cambiar texto"),
+              child: Text("Cambiar numero"),
             ),
           ],
         ),
