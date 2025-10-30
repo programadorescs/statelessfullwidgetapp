@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:statelessfullwidgetapp/pages/mi_widget_statefull.dart';
+import 'package:statelessfullwidgetapp/pages/contador_screen.dart';
 
 void main() {
-  runApp(const MaterialApp(home: MiWidgetStatefull()));
+  runApp(const MaterialApp(home: ContadorScreen()));
 }

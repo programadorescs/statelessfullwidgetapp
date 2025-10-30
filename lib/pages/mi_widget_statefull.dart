@@ -14,6 +14,11 @@ class _MiWidgetStatefullState extends State<MiWidgetStatefull> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          
+        }
+        ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
